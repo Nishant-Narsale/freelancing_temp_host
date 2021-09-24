@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+{% load static %}
+{% load socialaccount %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <title>Login | FREELANCER</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="inner-container">
+                <h1 class="form-header">Log-in to your account</h1>
+                <form action="{% url 'main:login' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="text" name="username" id="username" placeholder="Username">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="submit" class="submit-button" value="Log In">
+                </form>
+                <p class="signup-link">or continue with</p>
+                <div class="icons">
+                    <div class="google-icon">
+                        <a href="{% provider_login_url 'google' %}">
+                            <img src="{% static 'images/google-logo.png' %}" alt="Google" class="social-icon">
+                        </a>
+                    </div>
+                    <div class="facebook-icon">
+                        <a href="#">
+                            <img src="{% static 'images/facebook-logo.png' %}" alt="Facebook" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <p class="signup-link">Don't have an account? <a href="{% url 'main:signup' %}">Click Here</a></p>
+            </div>
+        </div>
+        <div class="img-container">
+
+        </div>
+
+
+
+
+
+    <!-- {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %} -->
+    </div>
+</body>
+</html>

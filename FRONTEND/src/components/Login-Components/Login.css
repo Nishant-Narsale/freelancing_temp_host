@@ -1,0 +1,106 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.main-login {
+  text-align: center;
+  width: 45vw;
+  min-width: 80vh;
+  background-color: #0f0c29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-login > div {
+  width: 70%;
+  height: 80vh;
+  border-radius: 24px;
+  background: linear-gradient(
+    162.29deg,
+    rgba(62, 60, 88, 0.64) 0.99%,
+    rgba(23, 22, 40, 0) 179.83%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-login {
+  width: 55%;
+  background-color: #171628;
+  flex-shrink: 2;
+}
+
+.login-input {
+  width: auto;
+  background: #171628;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+}
+
+.login-input > section > input {
+  background: linear-gradient(
+    162.29deg,
+    #171628 0.99%,
+    rgba(23, 22, 40, 0) 179.83%
+  );
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 1rem;
+  color: white;
+  padding-left: 10px;
+}
+
+.login-button > button {
+  background: linear-gradient(
+    162.29deg,
+    #a8c0fe 0.99%,
+    #6865be 44.77%,
+    #3f2b96 107.18%
+  );
+  padding: 0.5rem 5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.signup-button > button {
+  background: #1f1c39;
+  padding: 0.7rem 6rem;
+  outline: none;
+  border-radius: 30px;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.login-text {
+  background-image: linear-gradient(
+    162.29deg,
+    #a8c0fe 0.99%,
+    #6865be 44.77%,
+    #3f2b96 107.18%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2.3rem;
+  font-family: "Roboto";
+  margin-bottom: 1rem;
+}

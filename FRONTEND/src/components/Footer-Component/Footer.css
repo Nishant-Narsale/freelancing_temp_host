@@ -1,0 +1,21 @@
+.footercontentbox{
+    background: #050414;
+    height: 25vw;
+}
+.footercontext{
+    display: flex;
+    justify-content: space-around;
+   color: white;
+    /* margin: 2vw; */
+    padding: 2vw;
+}
+.linemaro{
+    height: 0.1vw;
+    width: 89vw;
+    background: white;
+    margin-left: 4vw;
+}
+.networkingsites{
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,73 @@
+.midbox {
+  display: flex;
+  height: calc(100vh - 70px);
+  width: 66.66vw;
+  transition: 0.5s;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 20px 20px black;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.svg-container {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-container > svg {
+  height: 45%;
+}
+
+.inputtag {
+  background: #c4c4c4;
+  color: #605858;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  width: 70%;
+  outline: none;
+}
+.imgmain {
+  position: absolute;
+  top: -1vw;
+  right: 0;
+  height: 27vw;
+  width: 24vw;
+  display: flex;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.container {
+  display: flex;
+}
+.combine {
+  display: flex;
+  width: 70%;
+  height: 20px;
+  background: #c4c4c4;
+  position: absolute;
+  margin: 3vw 4vw;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.Jobs {
+  margin-top: 10vw;
+  margin-left: 4vw;
+}
+
+.info {
+  font-family: "Irish Grover";
+  font-size: 2.4vw;
+  display: flex;
+  margin-right: 23vw;
+  min-height: 9vw;
+  margin-top: 1vw;
+  align-items: center;
+}

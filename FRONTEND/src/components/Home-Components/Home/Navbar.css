@@ -1,0 +1,64 @@
+.navbar {
+  justify-content: space-between;
+  display: flex;
+  height: 70px;
+  transition: 0.5s;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.switchinput {
+  display: block;
+  opacity: 0;
+  
+}
+
+.right-navbar {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+label {
+  position: relative;
+  width: 36px;
+  height: 15px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 30px;
+  border: 1px solid;
+  cursor: pointer;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  left: 1;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  background: #2a2a40;
+  border-radius: 50%;
+  box-shadow: 1px 3px 6px #666666;
+}
+
+.switchinput:checked + label {
+  background: #fff;
+}
+
+.switchinput:checked + label:after {
+  left: auto;
+  right: 1px;
+}
+
+@media screen and (max-width: 480px) {
+  .right-navbar {
+    gap: 0;
+  }
+  .navbar {
+    padding: 0;
+  }
+}

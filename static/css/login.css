@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.form-container{
+    width: 45vw;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    background-color: #0f0c29;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    width: 70%;
+    height: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    background: linear-gradient( 162.29deg, rgba(62, 60, 88, 0.64) 0.99%, rgba(23, 22, 40, 0) 179.83% );
+}
+.form-header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    color: rgb(141, 121, 231);
+    align-items: flex-start;
+}
+
+input{
+  margin: 10px;
+}
+
+#username,#password{
+  padding: 7px;
+  background:#171628;
+  border: none;
+  width:70%;
+  color: white;
+  display: block;
+}
+#username:focus,#password:focus{
+  outline: none;
+  padding: 7px;
+  background:#171628;
+  color: white;
+}
+.submit-button{
+  background: rgb(85, 70, 153);
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+  width: 70%;
+}
+.signup-link{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 43px;
+  color: white;
+}
+a{
+  color: white;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+.social-icon{
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+{% load socialaccount %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <title>SignUp | FREELANCER</title>
+</head>
+<body>
+    <form action="{% url 'main:signup' %}" method="POST">
+        {% csrf_token %}
+        <input type="text" name="username" id="username" placeholder="Username">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password1" id="password1" placeholder="Password">
+        <input type="password" name="password2" id="password2" placeholder="Confirm Password">
+        <input type="submit" value="Sign Up">
+    </form>
+    <p class="signup-link">or continue with</p>
+    <div class="icons">
+        <div class="google-icon">
+            <a href="{% provider_login_url 'google' %}">
+                <img src="{% static 'images/google-logo.png' %}" alt="Google" class="social-icon">
+            </a>
+        </div>
+    </div>
+
+    <h3>Already have an account? <a href="{% url 'main:login' %}">Click Here</a></h3>
+    <!-- {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %} -->
+</body>
+</html>

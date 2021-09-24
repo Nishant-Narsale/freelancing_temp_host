@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c69312c.chunk.css",
+    "main.js": "/static/js/main.ed22b51d.chunk.js",
+    "main.js.map": "/static/js/main.ed22b51d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.75831c30.js",
+    "runtime-main.js.map": "/static/js/runtime-main.75831c30.js.map",
+    "static/js/2.0f20d772.chunk.js": "/static/js/2.0f20d772.chunk.js",
+    "static/js/2.0f20d772.chunk.js.map": "/static/js/2.0f20d772.chunk.js.map",
+    "static/js/3.8c0e2fb6.chunk.js": "/static/js/3.8c0e2fb6.chunk.js",
+    "static/js/3.8c0e2fb6.chunk.js.map": "/static/js/3.8c0e2fb6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4c69312c.chunk.css.map": "/static/css/main.4c69312c.chunk.css.map",
+    "static/js/2.0f20d772.chunk.js.LICENSE.txt": "/static/js/2.0f20d772.chunk.js.LICENSE.txt",
+    "static/media/Mid-logo.99f681db.png": "/static/media/Mid-logo.99f681db.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75831c30.js",
+    "static/js/2.0f20d772.chunk.js",
+    "static/css/main.4c69312c.chunk.css",
+    "static/js/main.ed22b51d.chunk.js"
+  ]
+}

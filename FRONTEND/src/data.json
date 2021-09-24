@@ -1,0 +1,114 @@
+[
+  {
+    "title" : "Web Development",
+    "category": [
+      {
+        "id": 1,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Need a React Developer",
+        "desc": "I need a react developer who has a little bit knowledge of Django, I need it fast.",
+        "job_creator": "Nishant Narsale",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Sambhaji-Nagar, India"
+      },
+      {
+        "id": 2,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Need a Designer",
+        "desc": "I need a Designer who has experience of Designing upto 2 years.",
+        "job_creator": "Ajinkya Patil",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Pune, India"
+      },
+      {
+        "id": 3,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "First job",
+        "desc": "This is description of first job. Making it big.",
+        "job_creator": "Dron Rahangdale",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Bhandara, India"
+      },
+      {
+        "id": 4,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Second job",
+        "desc": "This is description of second job. Making it big.",
+        "job_creator": "Pranav Masekar",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Pimpri Cinchwad, India"
+      },
+      { 
+        "id": 5,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Third job",
+        "desc": "This is description of third job. Making it big.",
+        "job_creator": "Aachal Modak",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Washim, India"
+      }
+    ]
+  },
+  {
+    "title" : "Android Development",
+    "category": [
+      {
+        "id": 1,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Need a React Developer",
+        "desc": "I need a react developer who has a little bit knowledge of Django, I need it fast.",
+        "job_creator": "Nishant Narsale",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Sambhaji-Nagar, India"
+      },
+      {
+        "id": 2,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Need a Designer",
+        "desc": "I need a Designer who has experience of Designing upto 2 years.",
+        "job_creator": "Ajinkya Patil",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Pune, India"
+      },
+      {
+        "id": 3,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "First job",
+        "desc": "This is description of first job. Making it big.",
+        "job_creator": "Dron Rahangdale",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Bhandara, India"
+      },
+      {
+        "id": 4,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Second job",
+        "desc": "This is description of second job. Making it big.",
+        "job_creator": "Pranav Masekar",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Pimpri Cinchwad, India"
+      },
+      { 
+        "id": 5,
+        "imageurl" : "https://picsum.photos/70/70",
+        "header": "Third job",
+        "desc": "This is description of third job. Making it big.",
+        "job_creator": "Aachal Modak",
+        "payment": "$2000",
+        "skills": ["HTML/CSS/JS", "Firebase", "Comding"],
+        "city" : "Washim, India"
+      }
+    ]
+  }
+]
+    
+

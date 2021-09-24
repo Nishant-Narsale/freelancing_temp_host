@@ -1,0 +1,42 @@
+.Navabrhead{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw
+}
+.logo{
+    height: 6vw;
+    width: 20vw;
+    background: linear-gradient(180deg, #5D86AB 0%, rgba(99, 132, 151, 0) 100%);
+    margin-left: -2.1vw;
+    margin-top: -2.1vw;
+    border-top-left-radius:2.4vw ;
+    background: linear-gradient(180deg, #5D86AB 0%, rgba(99, 132, 151, 0) 100%);
+    -webkit-transform: perspective(300px) rotateX(-30deg);
+    -webkit-transform-origin: 0% 50%;
+}
+.Navabarcomponents{
+display: flex;
+justify-content: space-around;
+gap: 3vw;
+cursor: pointer;
+color:#E2FAF8;
+font-size: 1.3vw;
+     
+}
+.signup{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    padding: 0.4vw 2vw;
+    background: linear-gradient(101.35deg, #8EECF2 8.91%, rgba(192, 222, 235, 0) 122.79%, rgba(72, 82, 169, 0) 122.79%);
+    border-radius: 39px;
+    color: black;
+    margin-top: -0.3vw;
+     cursor: pointer;
+     outline: none;
+     border: none;
+    font-size: 1.3vw;
+}

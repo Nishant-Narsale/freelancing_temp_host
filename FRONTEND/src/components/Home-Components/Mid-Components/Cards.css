@@ -1,0 +1,68 @@
+.card {
+  height: 210px;
+  min-width: 536px;
+  border-radius: 12px;
+  white-space: initial;
+  background: linear-gradient(
+    98.94deg,
+    #2a5470 33.36%,
+    rgba(42, 84, 112, 0.53587) 56.2%,
+    rgba(42, 84, 112, 0) 100.56%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card > article {
+  display: flex;
+  margin: 1vw 0 0 2vw;
+}
+
+.card > article > img {
+  border-radius: 16px;
+}
+
+.card > article > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 1vw;
+}
+
+.card > section {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: calc(2vw);
+  margin-right: calc(2vw);
+  margin-top: 0.5vw;
+}
+
+.skills {
+  display: flex;
+  padding: 0.4vw;
+  overflow-x: auto;
+  gap: 10px;
+  margin: 0 1.4vw;
+}
+
+.skills > section {
+  padding: 0.3vw 1.5vw;
+  border-radius: 19px;
+  white-space: nowrap;
+}
+
+.city-prize {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-prize > div {
+  padding: 0.1vw 2vw;
+}

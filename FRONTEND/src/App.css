@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  top: 0;
+}
+.maincontainer {
+  display: flex;
+  width: auto;
+}
+
+.glass {
+  backdrop-filter: blur(19px) saturate(70%);
+  -webkit-backdrop-filter: blur(19px) saturate(70%);
+  background-color: rgba(17, 25, 40, 0.3);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.skills::-webkit-scrollbar,
+.midbox::-webkit-scrollbar,
+.scrollbar::-webkit-scrollbar {
+  height: 10px;
+  width : 10px;
+}
+
+.skills::-webkit-scrollbar-thumb,
+.midbox::-webkit-scrollbar-thumb,
+.scrollbar::-webkit-scrollbar-thumb {
+  height: 5px;
+  border-radius: 10px;
+  width: 5px;
+}
+
+.skills::-webkit-scrollbar-thumb:hover,
+.midbox::-webkit-scrollbar-thumb:hover,
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

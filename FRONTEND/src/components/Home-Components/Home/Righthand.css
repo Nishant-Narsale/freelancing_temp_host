@@ -1,0 +1,10 @@
+.righthand {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  width: 17.66vw;
+  align-items: center;
+  transition: 1s;
+  z-index: 1;
+  /* box-shadow: -7px 20px 10px black; */
+}
